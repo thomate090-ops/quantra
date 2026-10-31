@@ -1,26 +1,25 @@
-# Lecture Swan-Ganz
+# Lecture Quantra QPlus
 
-Simulateur pédagogique de lecture des courbes du cathéter artériel pulmonaire (sonde de Swan-Ganz), destiné aux internes d'anesthésie-réanimation en chirurgie cardiaque.
+Simulateur pédagogique de lecture du test viscoélastique Quantra (cartouche QPlus) après circulation extracorporelle, destiné aux internes d'anesthésie-réanimation en chirurgie cardiaque.
 
-**Accès direct :** voir le lien GitHub Pages dans la colonne « About » du dépôt.
+**Accès direct :** https://thomate090-ops.github.io/quantra/
 
 ## Contenu
 
 | Onglet | Objectif |
 |---|---|
-| **Montée** | Faire progresser la sonde (ballonnet, recul, boucle), reconnaître OD, VD, AP et PAPO ; planche anatomique et courbes de référence ; 13 profils hémodynamiques ; mode quiz |
-| **Quel profil ?** | Diagnostic différentiel sur un patient inconnu (pressions égalisées, PAPO trompeuse, défaillance droite), avec correction ciblée de l'erreur d'interprétation |
-| **Lire la PAPO** | Lecture de la PAPO en fin d'expiration sur des tracés réalistes et pièges |
-| **Thermodilution** | Courbes de thermodilution, débit cardiaque et artefacts |
-| **Calculs** | Calculs hémodynamiques (RVS, RVP, gradients, index) et profils |
+| **Cas cliniques** | 8 situations de chirurgie cardiaque (effet héparine, dissection, double valve, ticagrélor, transfusion massive, VA-ECMO, hypothermie…), avec correction ciblée de chaque erreur de lecture |
+| **Patient inconnu** | Un résultat généré au hasard : lire le compte rendu puis choisir la première mesure (protamine, facteurs, fibrinogène, plaquettes, correction physiologique, cause chirurgicale) |
+| **Laboratoire** | Faire varier héparine, facteurs, fibrinogène, plaquettes, température et antiplaquettaires pour voir quel paramètre bouge |
+| **Repères** | Ce que mesure chaque canal (CT, CTH, CTR, CS, FCS, PCS), intervalles de référence et limites du test |
 
 ## Avertissement
 
-Outil de formation. Les courbes et valeurs sont générées par un modèle pédagogique : elles reproduisent la morphologie et les pièges de lecture, pas un patient réel. Ne pas utiliser pour une décision clinique.
+Outil de formation. Les valeurs proviennent d'un modèle pédagogique simplifié : elles reproduisent les sens de variation, pas des valeurs réelles. Elles ne remplacent ni la notice du fabricant, ni le protocole transfusionnel du service. Ne pas utiliser pour une décision clinique.
 
 ## Technique
 
-Une seule page HTML autonome (HTML, CSS et JavaScript), sans serveur ni base de données, aucune donnée collectée. Fonctionne sur ordinateur, tablette et téléphone.
+Une seule page HTML autonome, sans serveur ni base de données, aucune donnée collectée. Fonctionne sur ordinateur, tablette et téléphone.
 
 ## Auteur
 
